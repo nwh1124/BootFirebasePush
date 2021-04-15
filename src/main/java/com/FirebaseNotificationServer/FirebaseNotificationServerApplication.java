@@ -32,7 +32,7 @@ public class FirebaseNotificationServerApplication {
         FileInputStream refreshToken = new FileInputStream(PATH);
         option = new FirebaseOptions.Builder()
                 .setCredentials(GoogleCredentials.fromStream(refreshToken))
-                .setDatabaseUrl("https://데이터베이스주소.firebaseio.com")  //내 저장소 주소
+                .setDatabaseUrl("https://prac-9d3e8-default-rtdb.firebaseio.com")  //내 저장소 주소
                 .build();
         FirebaseApp.initializeApp(option);
     }
