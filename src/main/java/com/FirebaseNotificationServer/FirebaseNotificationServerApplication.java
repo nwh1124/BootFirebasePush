@@ -16,7 +16,7 @@ public class FirebaseNotificationServerApplication {
 	
     private FirebaseOptions option;
     private Firestore db; 
-    private final static String PATH = "C:/키파일.json";
+    private final static String PATH = "C:/Users/Myojol/AndroidStudioProjects/prac/app/google-services.json";
     private final static String COLLECTION_NAME = "컬렉션";
 
     public static void main( String[] args ) {
